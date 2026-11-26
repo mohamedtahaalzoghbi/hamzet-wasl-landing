@@ -27,9 +27,10 @@ h2{font-size:34px;text-align:center;margin:0 0 20px;color:var(--teal)}.center{te
 .steps li{background:var(--green);border-radius:24px;padding:22px}.steps b{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--terra);color:#fff;font-size:22px}.steps h3{color:var(--teal);margin:8px 0 0}
 .form{display:grid;gap:12px;margin-top:20px}.form.inline{grid-template-columns:1fr auto;margin-top:40px}
 input,select,textarea{font:inherit;padding:12px 16px;border:1.5px solid #9AA5A8;border-radius:12px;background:#fff;width:100%}
-input:focus,select:focus,textarea:focus{outline:0;border-color:var(--teal)}.hp{position:absolute;left:-9999px}
+input:focus,select:focus,textarea:focus{outline:0;border-color:var(--teal)}.hp{position:absolute;left:0;top:0;width:1px;height:1px;opacity:0;pointer-events:none;overflow:hidden}
 .msg{margin:0;font-weight:700}.msg.ok{color:#43856C}.msg.err{color:#D93E39}
 details{background:var(--beige);border-radius:16px;padding:14px 20px;margin:10px 0}summary{cursor:pointer;font-weight:700;color:var(--teal)}
 footer{display:flex;gap:12px;justify-content:center;align-items:center;padding:30px;background:var(--teal);color:#fff}footer img{height:36px;background:#fff;border-radius:8px;padding:2px}
 @media screen and (max-width:760px){.hero,.idea{grid-template-columns:1fr}.nav{flex-direction:column;gap:6px}.nav nav{overflow-x:auto;max-width:100%;gap:14px;white-space:nowrap}.form.inline{grid-template-columns:1fr}}
 .nav a{white-space:nowrap}.nav nav{flex-wrap:wrap;justify-content:flex-end}
+html,body{overflow-x:hidden;max-width:100%}
