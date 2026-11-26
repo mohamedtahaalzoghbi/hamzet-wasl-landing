@@ -1,4 +1,4 @@
-@font-face{font-family:Cairo;src:url(fonts/Cairo.ttf);font-weight:200 1000}
+@font-face{font-family:Cairo;src:url(fonts/Cairo.woff2?v=20261127a) format("woff2");font-weight:200 1000;font-display:swap}
 :root{--teal:#174B4E;--terra:#B6734A;--orange:#E4502A;--beige:#FBF8F5;--green:#E7F2ED;--ink:#172B2C;--muted:#5F6675}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;font-family:Cairo,"Noto Sans Arabic",sans-serif;background:#fff;color:var(--ink);line-height:1.8}
