@@ -34,3 +34,4 @@ footer{display:flex;gap:12px;justify-content:center;align-items:center;padding:3
 @media screen and (max-width:760px){.hero,.idea{grid-template-columns:1fr}.nav{flex-direction:column;gap:6px}.nav nav{overflow-x:auto;max-width:100%;gap:14px;white-space:nowrap}.form.inline{grid-template-columns:1fr}}
 .nav a{white-space:nowrap}.nav nav{flex-wrap:wrap;justify-content:flex-end}
 html,body{overflow-x:hidden;max-width:100%}
+@media screen and (max-width:760px){.hero:before,.phero:before{width:150px;height:150px;top:-95px;left:-95px}.hero:after{width:150px;height:170px}}
